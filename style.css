@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background: #e6fb89;
+}
+h1{
+    padding: 20px 50px;
+}
+.newTodos{
+    width: 40%;
+    text-align: center;
+    height: 30px;
+    margin: 20px 50px;
+}
+.flexContent{
+    display: flex;
+    justify-content: space-between;
+}
+.todoLists{
+    border: 2px solid indianred;
+    border-radius: 5px;
+    border-width: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px 50px;
+}
+li{
+    list-style: none;
+    padding: 20px 0;
+}
+.material-icons{
+    padding: 20px 0;
+    cursor: pointer;
+}
+@media(max-width: 768px){
+    body{
+        text-align: center;
+        width: 100vw;
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        display: block;
+        overflow-x: hidden;
+    }
+}
+.todoLists{
+    text-align: center;
+    margin-left: 30px;
+}
